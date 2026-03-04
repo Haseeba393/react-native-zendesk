@@ -1,0 +1,64 @@
+{
+  "name": "react-native-zendesk",
+  "version": "0.1.0",
+  "description": "React Native Zendesk integration with New Architecture support (TurboModules + Fabric component).",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "react-native-zendesk.podspec",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf lib"
+  },
+  "keywords": [
+    "react-native",
+    "zendesk",
+    "help-center",
+    "support",
+    "turbo-module",
+    "fabric",
+    "new-architecture"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Haseeba393/react-native-zendesk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Haseeba393/react-native-zendesk/issues"
+  },
+  "homepage": "https://github.com/Haseeba393/react-native-zendesk#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.72.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^19.0.12",
+    "typescript": "^5.8.2"
+  },
+  "codegenConfig": {
+    "name": "RNZendeskSpec",
+    "type": "all",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "com.rnzendesk"
+    },
+    "ios": {
+      "modulesClassName": "RNZendeskSpecProvider"
+    }
+  }
+}

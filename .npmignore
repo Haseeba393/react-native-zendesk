@@ -1,0 +1,32 @@
+# Example app (not needed for package consumers)
+example/
+
+# Build artifacts (should not be published)
+android/build/
+
+# Development files
+.git/
+.gitignore
+.github/
+CHANGELOG.md
+CONTRIBUTING.md
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Build artifacts
+lib/
+*.tsbuildinfo
+*.tgz
+
+# Local config
+*.local.ts
+*.local.js
+
+# Tests (if added later)
+__tests__/
+*.test.ts
+*.spec.ts
+coverage/
