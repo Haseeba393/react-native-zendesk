@@ -137,33 +137,6 @@ npm run android
 
 Create `example/zendesk.config.local.ts` with your Zendesk credentials for full testing (see `zendesk.config.local.example.ts`).
 
-## Publishing
-
-Before publishing to npm:
-
-1. Add your name/email to `author` in `package.json`.
-2. Update the `LICENSE` copyright year and holder if needed.
-3. Run `npm pack` to verify the package contents.
-
-### npm
-
-```bash
-npm login
-npm publish
-```
-
-### GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial release"
-git remote add origin https://github.com/Haseeba393/react-native-zendesk.git
-git push -u origin main
-git tag v0.1.0
-git push origin v0.1.0
-```
-
 ## License
 
 MIT
